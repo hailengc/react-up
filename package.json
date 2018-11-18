@@ -91,7 +91,10 @@
     ]
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "react-app",
+    "globals": {
+      "_": false
+    }
   },
   "devDependencies": {
     "less": "^3.8.1",
